@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <display-name>Restaurant app</display-name>
+
+  <servlet>
+    <servlet-name>BoekTafelServlet</servlet-name>
+    <servlet-class>be.pxl.tafelboeker.servlets.BoekTafelServlet</servlet-class>
+    <init-param>
+      <param-name>restaurant</param-name>
+      <param-value>Pallieter</param-value>
+    </init-param>
+  </servlet>
+</web-app>
